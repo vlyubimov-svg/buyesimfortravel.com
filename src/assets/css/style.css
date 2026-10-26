@@ -323,3 +323,13 @@ p{margin:0 0 1em}
 .hero .wrap{z-index:2}
 .cover-svg{aspect-ratio:16/6;object-fit:cover}
 @media(max-width:560px){.hero{padding-bottom:96px}.skyline{height:70px}.hero:before{bottom:70px}}
+
+/* flags and buttons */
+.flag{width:24px;height:16px;border:1px solid var(--ink);border-radius:2px;vertical-align:-3px;margin-right:6px;display:inline-block;flex:none}
+.card-kicker .flag{margin-right:4px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:0 0 26px}
+.hero-actions .btn-ghost{background:transparent;color:#fff;border-color:#fff}
+.hero-actions .btn-ghost:hover{background:#fff;color:var(--board)}
+.hero-actions .btn-primary{box-shadow:3px 3px 0 #fff}
+.visit,.cta-row{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 26px}
+.cta-row{margin:30px 0}

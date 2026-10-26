@@ -6,6 +6,7 @@ Covers for blog cards: cover(meta) -> svg, chosen by meta["cover"].
 """
 import re
 import scenes as scn
+import flags
 
 VISUAL_RE = re.compile(r"<!--VISUAL\s+([a-z0-9-]+)(?:\|(.*?))?-->", re.S)
 
@@ -97,4 +98,5 @@ def cover(meta):
 
 
 def expand(html, site):
+    html = flags.expand(html)
     return VISUAL_RE.sub(lambda m: render(m.group(1), (m.group(2) or "").strip(), site), html)
