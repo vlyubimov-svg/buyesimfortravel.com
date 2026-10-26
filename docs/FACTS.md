@@ -53,3 +53,10 @@ Status codes: V = verified by us on the source on 2026-10-27; A = taken from the
 - GigSky (V, own blog https://www.gigsky.com/blog/esim-for-europe-travel-one-plan-for-43-countries-without-swapping-sim-cards): 43 countries incl. UK and Turkey; unlimited priced by duration, speed drops after 3.5 GB of high-speed data a day; tethering supported; data only; free 500 MB trial mentioned; final prices in app. Payment, ID: not found.
 - Flexiroam (partial, https://flexiroam.com/shop/esim-europe-regional-data-plans): Europe regional page exists with fixed packs (10 GB/3 days, 20 GB/5 days, 50 GB/10 days, 100 GB/15 days) and an Unlimited tab; unlimited details, country count, hotspot, payment, ID not confirmed. Prices not used.
 - Editorial: TonMobile's post-cap speed is stated once, plainly, in its plan description (from the supplied article, 512 kbps). It is not used as a rating criterion.
+
+## TonMobile, verified from user-supplied app screenshots (Germany page), 2026-10-27
+- V: Unlimited tab for Germany: 1 day $3.10, 3 days $7.80, 5 days $12.76, 7 days $17.70, 15 days $37.50, 30 days $74.62. Matches the supplied article for Germany.
+- V: App text on the Unlimited tab: "1 GB at full speed every day! You get 1 GB of high-speed data every day. Once used up, the speed is reduced to 512 kbps."
+- V: Page badges: device supports eSIM check, "Internet only, no mob. number", "Activation within 180 days".
+- V: Standard tab for Germany (fixed plans): 1 GB/7 days $3.50, 3 GB/30 days $6.50, 5 GB/30 days $9.99, 10 GB/30 days $17.50, 20 GB/30 days $27.99, 50 GB/90 days $45.99, 100 GB/180 days $85.99. (Country plans, different from the Europe regional plan figures above.)
+- V: A "$1.50 off your first eSIM" banner was shown (not used on the site).
