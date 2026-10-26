@@ -1,0 +1,91 @@
+{
+ "name": "Buy eSIM for Travel",
+ "domain": "buyesimfortravel.com",
+ "tagline": "Europe data plans, priced by the day",
+ "lang": "en",
+ "topic": "unlimited data eSIM for Europe",
+ "author": "Editorial team",
+ "author_initials": "BT",
+ "contact_email": "hello@buyesimfortravel.com",
+ "partner": {
+  "name": "TonMobile",
+  "slug": "tonmobile",
+  "hosts": [
+   "tonmobile.com"
+  ]
+ },
+ "follow_hosts_extra": [
+  "apps.apple.com",
+  "play.google.com"
+ ],
+ "nofollow_hosts": [
+  "airalo.com",
+  "saily.com",
+  "holafly.com",
+  "getnomad.app",
+  "ubigi.com",
+  "yesim.app",
+  "yesim.tech",
+  "jetpacglobal.com",
+  "esimdb.com",
+  "nomadesim.com",
+  "maya.net",
+  "mobimatter.com",
+  "flexiroam.com",
+  "gigsky.com",
+  "trip.com",
+  "simlocal.com",
+  "breezesim.com",
+  "esim4.com"
+ ],
+ "nav": [
+  {
+   "key": "home",
+   "label": "Unlimited eSIM Europe",
+   "url": "/"
+  },
+  {
+   "key": "rating",
+   "label": "Rating",
+   "url": "/rating/"
+  },
+  {
+   "key": "blog",
+   "label": "Guides",
+   "url": "/blog/"
+  },
+  {
+   "key": "methodology",
+   "label": "How we score",
+   "url": "/methodology/"
+  }
+ ],
+ "header_cta": {
+  "label": "Full ranking",
+  "url": "/rating/"
+ },
+ "rating": {
+  "title": "Best eSIMs for Europe with unlimited data",
+  "sidebar_title": "Top 3 right now",
+  "article_title": "Top 3 Europe eSIMs right now"
+ },
+ "footer": {
+  "about": "An independent price-per-day comparison of travel eSIMs for Europe, built around route, daily data use and payment options.",
+  "legal": "Brand names belong to their owners. This site is not operated by any eSIM provider.",
+  "note": "Plans and prices change often. Confirm the final figure at checkout."
+ },
+ "brand": {
+  "og_bg": "#0E1A24",
+  "og_ink": "#F3F1E7",
+  "og_accent": "#FFC20E",
+  "og_headline": "Europe eSIM, priced by the day",
+  "og_font": "Barlow Condensed"
+ },
+ "qa": {
+  "home_min_words": 3000,
+  "post_min_words": 1400
+ },
+ "mock": {
+  "line_label": "Travel eSIM"
+ }
+}

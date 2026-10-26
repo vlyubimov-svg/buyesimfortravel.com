@@ -1,0 +1,176 @@
+{
+ "criteria": [
+  "Price per day",
+  "Daily full-speed data",
+  "Speed after the cap",
+  "Country coverage",
+  "Payment and privacy",
+  "Hotspot and flexibility"
+ ],
+ "providers": [
+  {
+   "slug": "tonmobile",
+   "name": "TonMobile",
+   "url": "https://tonmobile.com/",
+   "color": "#0B4F8A",
+   "tag": "Lowest price per day for one-country trips",
+   "best_for": "City breaks and one- to two-week stays in a single country",
+   "scores": [
+    9.6,
+    6.4,
+    6.8,
+    8.0,
+    9.7,
+    8.4
+   ],
+   "facts": [
+    "1 GB/day, then 512 kbps",
+    "One country per unlimited plan",
+    "Europe fixed plan: 35 countries",
+    "No documents at purchase"
+   ],
+   "summary": "TonMobile lists seven-day unlimited plans at $16.50 for France and the UK and $17.70 for Spain, Germany, Portugal, Greece and the Netherlands (October 2026). Buying needs no documents, and cards, Apple Pay, Google Pay and crypto are accepted. The Europe plan covers 35 countries but has fixed data, not unlimited.",
+   "pros": [
+    "Lowest price per day for single-country unlimited plans",
+    "No identity check at purchase",
+    "Card, Apple Pay, Google Pay and crypto payments",
+    "180-day activation window and in-app top-ups"
+   ],
+   "cons": [
+    "Only 1 GB of full-speed data per day",
+    "No regional unlimited plan for Europe",
+    "Data-only, no phone number"
+   ],
+   "cta": "Open TonMobile"
+  },
+  {
+   "slug": "saily",
+   "name": "Saily",
+   "url": "https://saily.com/",
+   "color": "#2F7D6D",
+   "tag": "Regional unlimited for heavy daily use",
+   "best_for": "Multi-country routes with lots of mobile streaming",
+   "scores": [
+    7.6,
+    9.4,
+    8.2,
+    8.4,
+    7.2,
+    7.6
+   ],
+   "facts": [
+    "5 GB/day, then 1 Mbps",
+    "35 countries",
+    "Plans up to 30 days",
+    "Data-only"
+   ],
+   "summary": "Saily sells one Europe unlimited eSIM for 35 countries with a 5 GB daily allowance. According to eSIMDB, a week costs $28.99 and 30 days $71.99, so it makes most sense for long trips that change country often.",
+   "pros": [
+    "High daily allowance",
+    "One eSIM for 35 countries",
+    "Plans up to 30 days"
+   ],
+   "cons": [
+    "Roughly 75% more than TonMobile for a seven-day trip",
+    "Data-only"
+   ],
+   "cta": "Visit Saily"
+  },
+  {
+   "slug": "airalo",
+   "name": "Airalo",
+   "url": "https://www.airalo.com/",
+   "color": "#B4452E",
+   "tag": "Widest country list in this comparison",
+   "best_for": "Border-hopping routes that include less common destinations",
+   "scores": [
+    7.6,
+    9.2,
+    8.2,
+    8.8,
+    7.0,
+    7.4
+   ],
+   "facts": [
+    "Eurolink: 41 countries",
+    "5 GB/day, then 1 Mbps",
+    "EUconnect: 28 countries, 3 GB/day"
+   ],
+   "summary": "Airalo lists two unlimited tiers for Europe: Eurolink with 41 countries and 5 GB a day, and a cheaper EUconnect with 28 countries and a 3 GB cap. Weekly Eurolink pricing is close to Saily's according to eSIMDB.",
+   "pros": [
+    "Broadest coverage in the list",
+    "Two unlimited tiers",
+    "Established app"
+   ],
+   "cons": [
+    "No price advantage over Saily",
+    "Cheaper tier covers fewer non-EU countries"
+   ],
+   "cta": "Visit Airalo"
+  },
+  {
+   "slug": "nomad",
+   "name": "Nomad",
+   "url": "https://www.getnomad.app/",
+   "color": "#6B5B95",
+   "tag": "Short unlimited trips and a cheap large fixed plan",
+   "best_for": "Five- to ten-day trips, or travellers under 1.5 GB a day",
+   "scores": [
+    8.0,
+    7.2,
+    8.0,
+    7.6,
+    7.0,
+    7.0
+   ],
+   "facts": [
+    "2 GB/day, then 1 Mbps",
+    "35 countries",
+    "Only 5 and 10 day unlimited",
+    "50 GB / 30 days fixed"
+   ],
+   "summary": "Nomad lists unlimited Europe plans for 35 countries with 2 GB a day, but only for 5 or 10 days. Its stronger offer, according to eSIMDB, is a fixed 50 GB plan for 30 days.",
+   "pros": [
+    "Large fixed plan at a low price",
+    "Simple short unlimited plans"
+   ],
+   "cons": [
+    "No unlimited plan longer than 10 days",
+    "Mid-range daily allowance"
+   ],
+   "cta": "Visit Nomad"
+  },
+  {
+   "slug": "holafly",
+   "name": "Holafly",
+   "url": "https://esim.holafly.com/",
+   "color": "#8A6D1F",
+   "tag": "No published daily cap on phone data",
+   "best_for": "Travellers who want no fixed daily number for phone use",
+   "scores": [
+    6.8,
+    7.8,
+    6.0,
+    7.4,
+    7.0,
+    5.8
+   ],
+   "facts": [
+    "Fair use policy, no daily cap listed",
+    "33 countries",
+    "Hotspot about 1 GB/day"
+   ],
+   "summary": "Holafly relies on a fair use policy instead of a published daily cap, and covers 33 countries in Europe. Adam and Linds report hotspot sharing limited to about 1 GB a day on prepaid plans (August 2026).",
+   "pros": [
+    "No published daily cap for phone use",
+    "Simple plan lengths"
+   ],
+   "cons": [
+    "Fair use slowdowns are not quantified",
+    "Tight hotspot limit",
+    "Highest 30-day price in the list"
+   ],
+   "cta": "Visit Holafly"
+  }
+ ]
+}

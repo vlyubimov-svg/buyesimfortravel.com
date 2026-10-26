@@ -1,0 +1,10 @@
+dist/
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+qa-screens/
+.env.deploy
+.env*
+.wrangler/
+node_modules/
