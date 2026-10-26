@@ -245,6 +245,8 @@ def main():
         meta, hero, body = parse(f)
         wc = word_count(body)
         meta.setdefault("read", max(3, round(wc / 230)))
+        scene_ph = f'<!--VISUAL {meta["scene"]}|-->' if meta.get("scene") else ""
+        body = scene_ph + body
         posts.append({"meta": meta, "hero": hero, "body": body, "slug": f.stem, "url": f"/blog/{f.stem}/",
                       "short": meta.get("short", meta["h1"]), "words": wc})
     posts.sort(key=lambda p: p["meta"].get("order", 99))

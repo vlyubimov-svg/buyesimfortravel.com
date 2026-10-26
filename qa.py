@@ -166,7 +166,7 @@ def screens(pages):
     out = ROOT / "qa-screens"; out.mkdir(exist_ok=True)
     srv = subprocess.Popen([sys.executable, "-m", "http.server", "8799", "--directory", str(DIST)],
                            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-    time.sleep(1)
+    time.sleep(4)
     try:
         with sync_playwright() as p:
             b = p.chromium.launch()

@@ -5,6 +5,7 @@ Names: route-map, board-plans, cap-meter, border-days, breakeven
 Covers for blog cards: cover(meta) -> svg, chosen by meta["cover"].
 """
 import re
+import scenes as scn
 
 VISUAL_RE = re.compile(r"<!--VISUAL\s+([a-z0-9-]+)(?:\|(.*?))?-->", re.S)
 
@@ -31,17 +32,19 @@ def route_map(caption):
 
 
 def board_plans(caption):
-    rows = [("TonMobile", "1 GB", "512 kbps", "One country", True), ("Nomad", "2 GB", "1 Mbps", "35 countries", False),
-            ("Saily", "5 GB", "1 Mbps", "35 countries", False), ("Airalo Eurolink", "5 GB", "1 Mbps", "41 countries", False),
-            ("Holafly", "Fair use", "Not published", "33 countries", False)]
+    rows = [("TonMobile", "1 GB", "One country", "Europe fixed plan: 35", True), ("Nomad", "2 GB", "35 countries", "5 or 10 days", False),
+            ("Jetpac", "3 GB", "33 to 43 countries", "3 to 30 days", False), ("GigSky", "3.5 GB", "43 countries", "1 to 30 days", False),
+            ("Saily", "5 GB", "35 countries", "7 to 30 days", False), ("Airalo Eurolink", "5 GB", "41 countries", "3 to 30 days", False),
+            ("Maya Mobile", "5 GB", "36 to 49 countries", "3 to 30 days", False), ("Ubigi", "25 GB fair use", "38 countries", "7 to 30 days", False),
+            ("Holafly", "Fair use", "33 countries", "3 to 30 days", False)]
     body = "".join(f'<div class="bp-row{" lead" if t else ""}"><span class="bp-prov">{n}</span><span>{a}</span><span>{b}</span><span>{c}</span></div>' for n, a, b, c, t in rows)
-    inner = ('<div class="board-plans" role="table" aria-label="Unlimited Europe eSIM departure board"><div class="bp-head"><span>PLAN</span><span>FULL SPEED / DAY</span><span>AFTER CAP</span><span>RANGE</span></div>' + body + "</div>")
+    inner = ('<div class="board-plans" role="table" aria-label="Unlimited Europe eSIM departure board"><div class="bp-head"><span>PLAN</span><span>FULL SPEED / DAY</span><span>RANGE</span><span>LENGTHS</span></div>' + body + "</div>")
     return fig(inner, caption)
 
 
 def cap_meter(caption):
-    data = [("TonMobile", 1, "512 kbps"), ("Nomad", 2, "1 Mbps"), ("Airalo EUconnect", 3, "Cap listed by Airalo"), ("Saily", 5, "1 Mbps"), ("Airalo Eurolink", 5, "1 Mbps")]
-    rows = "".join(f'<div class="cm-row"><span class="cm-name">{n}</span><span class="cm-track"><i style="width:{g * 20}%"></i></span><b>{g} GB</b><small>{s}</small></div>' for n, g, s in data)
+    data = [("TonMobile", 1), ("Nomad", 2), ("Airalo EUconnect", 3), ("Jetpac", 3), ("GigSky", 3.5), ("Saily", 5), ("Airalo Eurolink", 5), ("Maya Mobile", 5)]
+    rows = "".join(f'<div class="cm-row"><span class="cm-name">{n}</span><span class="cm-track"><i style="width:{g * 20}%"></i></span><b>{g:g} GB</b></div>' for n, g in data)
     return fig(f'<div class="cap-meter"><p class="cm-title">Full-speed data per day</p>{rows}</div>', caption)
 
 
@@ -68,6 +71,11 @@ VISUALS = {"route-map": route_map, "board-plans": board_plans, "cap-meter": cap_
 
 
 def render(name, caption, site):
+    if name in scn.SCENES:
+        cap = f"<figcaption>{caption}</figcaption>" if caption else ""
+        return f'<figure class="scene">{scn.svg(name)}{cap}</figure>'
+    if name == "skyline":
+        return scn.skyline()
     if name not in VISUALS:
         raise KeyError(f"Unknown visual '{name}': add it to src/visuals.py")
     return VISUALS[name](caption)
@@ -75,6 +83,8 @@ def render(name, caption, site):
 
 def cover(meta):
     """Small scene for blog cards, chosen by meta['cover']."""
+    if meta.get("scene") in scn.SCENES:
+        return scn.svg(meta["scene"], "cover-svg")
     c = meta.get("cover", "rail")
     bg = {"rail": PALE, "roam": "#F5E3A8", "sim": "#E3E8EC", "phone": PALE, "key": "#F5E3A8"}.get(c, PALE)
     scenes = {

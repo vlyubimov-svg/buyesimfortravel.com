@@ -2,10 +2,10 @@
  "criteria": [
   "Price per day",
   "Daily full-speed data",
-  "Speed after the cap",
   "Country coverage",
   "Payment and privacy",
-  "Hotspot and flexibility"
+  "Hotspot rules",
+  "Activation and top-ups"
  ],
  "providers": [
   {
@@ -18,13 +18,13 @@
    "scores": [
     9.6,
     6.4,
-    6.8,
     8.0,
     9.7,
-    8.4
+    7.0,
+    9.2
    ],
    "facts": [
-    "1 GB/day, then 512 kbps",
+    "1 GB a day on unlimited plans",
     "One country per unlimited plan",
     "Europe fixed plan: 35 countries",
     "No documents at purchase"
@@ -44,6 +44,71 @@
    "cta": "Open TonMobile"
   },
   {
+   "slug": "ubigi",
+   "name": "Ubigi",
+   "url": "https://www.ubigi.com/",
+   "color": "#1F6E8C",
+   "tag": "Large fair-use allowance on one Europe plan",
+   "best_for": "Longer multi-country trips with a lot of data",
+   "scores": [
+    7.2,
+    9.0,
+    8.2,
+    8.4,
+    7.4,
+    8.0
+   ],
+   "facts": [
+    "25 GB fair use, then a reduced speed",
+    "38 destinations",
+    "Data-only",
+    "Activate within 6 months"
+   ],
+   "summary": "Ubigi lists a Europe Unlimited plan for 7, 15 and 30 days across 38 destinations, including the UK, Switzerland and Norway. On the 7-day plan page a fair use limit of 25 GB applies, after which the speed is reduced. It accepts many card types, Apple Pay, Google Pay and PayPal.",
+   "pros": [
+    "Large full-speed allowance on the plan page",
+    "Wide list of payment methods",
+    "Plan starts on arrival"
+   ],
+   "cons": [
+    "Fair use limit rather than a daily number",
+    "Whether an ID check applies was not found in our sources"
+   ],
+   "cta": "Visit Ubigi"
+  },
+  {
+   "slug": "airalo",
+   "name": "Airalo",
+   "url": "https://www.airalo.com/",
+   "color": "#B4452E",
+   "tag": "Widest country list among the big names",
+   "best_for": "Border-hopping routes with less common destinations",
+   "scores": [
+    7.6,
+    9.2,
+    8.8,
+    7.0,
+    7.4,
+    7.6
+   ],
+   "facts": [
+    "Eurolink: 41 countries",
+    "5 GB a day",
+    "EUconnect: 28 countries, 3 GB a day"
+   ],
+   "summary": "Airalo lists two unlimited tiers for Europe: Eurolink with 41 countries and 5 GB a day, and a cheaper EUconnect with 28 countries and a 3 GB cap. Weekly Eurolink pricing is close to Saily's according to eSIMDB.",
+   "pros": [
+    "Broad coverage",
+    "Two unlimited tiers",
+    "Established app"
+   ],
+   "cons": [
+    "No price advantage over Saily",
+    "Cheaper tier covers fewer non-EU countries"
+   ],
+   "cta": "Visit Airalo"
+  },
+  {
    "slug": "saily",
    "name": "Saily",
    "url": "https://saily.com/",
@@ -53,13 +118,13 @@
    "scores": [
     7.6,
     9.4,
-    8.2,
     8.4,
     7.2,
-    7.6
+    7.4,
+    7.4
    ],
    "facts": [
-    "5 GB/day, then 1 Mbps",
+    "5 GB a day",
     "35 countries",
     "Plans up to 30 days",
     "Data-only"
@@ -77,36 +142,101 @@
    "cta": "Visit Saily"
   },
   {
-   "slug": "airalo",
-   "name": "Airalo",
-   "url": "https://www.airalo.com/",
-   "color": "#B4452E",
-   "tag": "Widest country list in this comparison",
-   "best_for": "Border-hopping routes that include less common destinations",
+   "slug": "gigsky",
+   "name": "GigSky",
+   "url": "https://www.gigsky.com/",
+   "color": "#7A4E9E",
+   "tag": "43-country plan with trial and tiered fixed packs",
+   "best_for": "Travellers who want to try a small plan first",
    "scores": [
-    7.6,
-    9.2,
+    6.8,
+    8.6,
     8.2,
-    8.8,
-    7.0,
-    7.4
+    6.4,
+    8.0,
+    8.0
    ],
    "facts": [
-    "Eurolink: 41 countries",
-    "5 GB/day, then 1 Mbps",
-    "EUconnect: 28 countries, 3 GB/day"
+    "3.5 GB a day on unlimited",
+    "43 countries",
+    "Hotspot allowed",
+    "Up to 12 months to activate"
    ],
-   "summary": "Airalo lists two unlimited tiers for Europe: Eurolink with 41 countries and 5 GB a day, and a cheaper EUconnect with 28 countries and a 3 GB cap. Weekly Eurolink pricing is close to Saily's according to eSIMDB.",
+   "summary": "GigSky's own blog describes a Europe eSIM for 43 countries including the UK and Turkey. Its unlimited plans are priced by duration and drop in speed after 3.5 GB of high-speed data a day. Tethering is supported, and a free 500 MB trial is mentioned.",
    "pros": [
-    "Broadest coverage in the list",
-    "Two unlimited tiers",
-    "Established app"
+    "43 countries",
+    "Hotspot allowed",
+    "Small trial plan"
    ],
    "cons": [
-    "No price advantage over Saily",
-    "Cheaper tier covers fewer non-EU countries"
+    "Final prices are shown in the app and vary",
+    "Payment methods were not found in our sources"
    ],
-   "cta": "Visit Airalo"
+   "cta": "Visit GigSky"
+  },
+  {
+   "slug": "maya",
+   "name": "Maya Mobile",
+   "url": "https://maya.net/",
+   "color": "#C2255C",
+   "tag": "5 GB a day with hotspot on all plans",
+   "best_for": "Heavy users who tether",
+   "scores": [
+    7.8,
+    8.8,
+    8.0,
+    6.4,
+    8.0,
+    7.0
+   ],
+   "facts": [
+    "5 GB a day, per eSIMDB",
+    "36 to 49 countries by source",
+    "Hotspot allowed",
+    "Data-only"
+   ],
+   "summary": "According to eSIMDB, Maya Mobile's Europe plan gives 5 GB a day at full speed and allows hotspot on all plans. Sources disagree on the country count, from 36 to 49, so check the list for your route.",
+   "pros": [
+    "Hotspot allowed on all plans",
+    "High daily allowance"
+   ],
+   "cons": [
+    "Sources disagree on the country list",
+    "Official pages were hard to verify"
+   ],
+   "cta": "Visit Maya"
+  },
+  {
+   "slug": "jetpac",
+   "name": "Jetpac",
+   "url": "https://www.jetpacglobal.com/",
+   "color": "#D9480F",
+   "tag": "Many lengths and unlimited hotspot, per its own blog",
+   "best_for": "Short and mid-length trips that need flexible durations",
+   "scores": [
+    7.4,
+    8.4,
+    8.0,
+    6.4,
+    8.6,
+    7.0
+   ],
+   "facts": [
+    "3 GB a day, per eSIMDB",
+    "33 to 43 countries by source",
+    "Unlimited hotspot per its blog",
+    "Data-only"
+   ],
+   "summary": "Jetpac lists Europe unlimited plans from 3 to 30 days according to eSIMDB, with 3 GB a day at full speed. Its own blog says unlimited hotspot is included on unlimited plans. Country counts differ between sources.",
+   "pros": [
+    "Many plan lengths",
+    "Hotspot included according to its blog"
+   ],
+   "cons": [
+    "Conflicting prices and country counts between sources",
+    "Payment methods were not found"
+   ],
+   "cta": "Visit Jetpac"
   },
   {
    "slug": "nomad",
@@ -118,13 +248,13 @@
    "scores": [
     8.0,
     7.2,
-    8.0,
     7.6,
     7.0,
-    7.0
+    7.2,
+    7.2
    ],
    "facts": [
-    "2 GB/day, then 1 Mbps",
+    "2 GB a day",
     "35 countries",
     "Only 5 and 10 day unlimited",
     "50 GB / 30 days fixed"
@@ -141,6 +271,39 @@
    "cta": "Visit Nomad"
   },
   {
+   "slug": "yesim",
+   "name": "Yesim",
+   "url": "https://yesim.app/",
+   "color": "#2B8A3E",
+   "tag": "No ID check and cheap fixed plans",
+   "best_for": "Travellers with modest data needs who prefer fixed plans",
+   "scores": [
+    7.6,
+    7.0,
+    7.6,
+    8.0,
+    6.4,
+    8.2
+   ],
+   "facts": [
+    "33 countries (Europe and UK)",
+    "Fair usage policy on unlimited",
+    "No ID check",
+    "Activate within 180 days"
+   ],
+   "summary": "Yesim sells a Europe and UK eSIM for 33 countries, with fixed and unlimited tabs. Its page mentions a fair usage policy that may throttle after a daily limit, without giving the number. It states no ID is required and unused plans are refundable within 30 days.",
+   "pros": [
+    "No ID check stated",
+    "Fixed plans from 1 GB",
+    "Refund window for unused plans"
+   ],
+   "cons": [
+    "Daily limit on unlimited not published",
+    "Hotspot rule unclear for Europe"
+   ],
+   "cta": "Visit Yesim"
+  },
+  {
    "slug": "holafly",
    "name": "Holafly",
    "url": "https://esim.holafly.com/",
@@ -150,15 +313,15 @@
    "scores": [
     6.8,
     7.8,
-    6.0,
     7.4,
     7.0,
-    5.8
+    5.8,
+    7.2
    ],
    "facts": [
     "Fair use policy, no daily cap listed",
     "33 countries",
-    "Hotspot about 1 GB/day"
+    "Hotspot about 1 GB a day"
    ],
    "summary": "Holafly relies on a fair use policy instead of a published daily cap, and covers 33 countries in Europe. Adam and Linds report hotspot sharing limited to about 1 GB a day on prepaid plans (August 2026).",
    "pros": [
@@ -168,9 +331,39 @@
    "cons": [
     "Fair use slowdowns are not quantified",
     "Tight hotspot limit",
-    "Highest 30-day price in the list"
+    "Highest 30-day price among the five providers with listed prices"
    ],
    "cta": "Visit Holafly"
+  },
+  {
+   "slug": "flexiroam",
+   "name": "Flexiroam",
+   "url": "https://www.flexiroam.com/",
+   "color": "#364FC7",
+   "tag": "Fixed-data Europe packs with a required app",
+   "best_for": "Travellers who want a large fixed pack for a short trip",
+   "scores": [
+    6.6,
+    7.0,
+    7.8,
+    6.4,
+    6.4,
+    6.6
+   ],
+   "facts": [
+    "Fixed packs seen up to 100 GB",
+    "Unlimited tab on its Europe page",
+    "App needed to activate"
+   ],
+   "summary": "Flexiroam's Europe page lists fixed packs such as 10 GB for 3 days and 100 GB for 15 days, plus an Unlimited tab. We could not confirm the unlimited details, the country list or the hotspot rule, so its scores are conservative.",
+   "pros": [
+    "Large fixed packs for short trips"
+   ],
+   "cons": [
+    "Unlimited details not confirmed in our sources",
+    "Hotspot rule not confirmed"
+   ],
+   "cta": "Visit Flexiroam"
   }
  ]
 }
