@@ -33,7 +33,7 @@ def route_map(caption):
 
 
 def board_plans(caption):
-    rows = [("TonMobile", "1 GB", "One country", "Europe fixed plan: 35", True), ("Nomad", "2 GB", "35 countries", "5 or 10 days", False),
+    rows = [("TonMobile", "1 GB", "One country", "Europe fixed plan: 35", False), ("Nomad", "2 GB", "35 countries", "5 or 10 days", False),
             ("Jetpac", "3 GB", "33 to 43 countries", "3 to 30 days", False), ("GigSky", "3.5 GB", "43 countries", "1 to 30 days", False),
             ("Saily", "5 GB", "35 countries", "7 to 30 days", False), ("Airalo Eurolink", "5 GB", "41 countries", "3 to 30 days", False),
             ("Maya Mobile", "5 GB", "36 to 49 countries", "3 to 30 days", False), ("Ubigi", "25 GB fair use", "38 countries", "7 to 30 days", False),

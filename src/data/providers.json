@@ -13,15 +13,15 @@
    "name": "TonMobile",
    "url": "https://tonmobile.com/",
    "color": "#0B4F8A",
-   "tag": "Lowest price per day for one-country trips",
+   "tag": "Lowest weekly price for one-country trips",
    "best_for": "City breaks and one- to two-week stays in a single country",
    "scores": [
-    9.6,
-    6.4,
+    9.4,
+    6.0,
     8.0,
-    9.7,
-    7.0,
-    9.2
+    9.2,
+    6.8,
+    9.0
    ],
    "facts": [
     "1 GB a day on unlimited plans",
@@ -136,7 +136,7 @@
     "Plans up to 30 days"
    ],
    "cons": [
-    "Roughly 75% more than TonMobile for a seven-day trip",
+    "Higher weekly price than a single-country plan, though with five times the daily full-speed data",
     "Data-only"
    ],
    "cta": "Visit Saily"
